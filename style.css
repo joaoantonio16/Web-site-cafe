@@ -1,6 +1,8 @@
 body{
     background-image: url("fundo.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin-left: 20%;
     margin-right: 20%;
     border: 4px dotted rgb(255, 255, 255);
@@ -8,17 +10,46 @@ body{
     font-family: sans-serif;
 }
 h1.titulo {
-    color: #000000;
+    color: #e47915;
     font-family: verdana;
-    text-shadow: 4px 4px 4px white;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
     font-size: 30pt;
     text-align: center;
 }
+h2 {
+    color:#e47915;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    text-align: center;
+}
+nav{
+    padding: 10px;
+    font-size: 16pt;
+    font-family: verdana;
+    font-weight: bold;
+}
+nav > a{
+    color: #ffe17f;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    transition-duration: .5s;
+}
+nav > a:hover {
+    background-color: #bb6629;
+    color:rgb(255, 255, 255);
+
+}
 p {
     color: white;
+    text-shadow: 4px 4px 4px black;
+    text-align: center;
 }
 img {
     border: 4px solid #8B4513;
+    box-shadow: 4px 4px 4px black;
     object-fit: cover;
     transform: translateX(50%);
+    display: block;
+    margin-left: 350px;
+    margin-right: auto 
 }
